@@ -9,7 +9,7 @@
 .grid-pos{
   display: flex;
   justify-content: center;
-  margin-top: 5rem;
+  margin-top: 7rem;
 }
 #movedown{
   margin-top: 4rem !important; 
@@ -17,7 +17,7 @@
 #description{
   text-align: center;
   background-color: #F6F7F8;
-  margin: 10rem 20rem;
+  margin: 10rem 10rem;
   overflow: hidden;
   transition: transform .5s ease;
 }
