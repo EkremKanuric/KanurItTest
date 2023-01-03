@@ -1,0 +1,46 @@
+.navbar{
+  background-color: #B3EAD7;
+  color: white;
+}
+
+.navbar > p{
+  margin: 0 !important;
+}
+.grid-pos{
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+#movedown{
+  margin-top: 4rem !important; 
+}
+#description{
+  text-align: center;
+  background-color: #F6F7F8;
+  margin: 10rem 20rem;
+  overflow: hidden;
+  transition: transform .5s ease;
+}
+#description:hover{
+  transform: scale(1.25);
+}
+.bold{
+  font-weight: bold;
+}
+.btnpositioning{
+  margin: 2rem 0;
+}
+.sW{
+  color: white !important;
+}
+.sW:hover{
+  color: black !important;
+}
+.picturePos{
+  object-fit: cover;
+  object-position:50% 50%;
+  height: 100%;
+}
+.content{
+  height: 400px;
+}
