@@ -1,6 +1,6 @@
 .navbar{
   background-color: #B3EAD7;
-  color: white;
+  height: 5rem;
 }
 
 .navbar > p{
@@ -12,29 +12,25 @@
   margin-top: 7rem;
 }
 #movedown{
-  margin-top: 4rem !important; 
+  margin-top: 7rem !important; 
 }
-#description{
+.content{
   text-align: center;
   background-color: #F6F7F8;
-  margin: 10rem 10rem;
   overflow: hidden;
   transition: transform .5s ease;
 }
-#description:hover{
-  transform: scale(1.25);
-}
-.bold{
-  font-weight: bold;
+.content:hover{
+  transform: scale(1.02);
 }
 .btnpositioning{
   margin: 2rem 0;
 }
 .sW{
-  color: white !important;
+  color: black !important;
 }
 .sW:hover{
-  color: black !important;
+  color: white !important;
 }
 .picturePos{
   object-fit: cover;
