@@ -2,6 +2,9 @@
   background-color: #B3EAD7;
   height: 5rem;
 }
+.bgColor{
+  background-color: #B3EAD7;
+}
 
 .navbar > p{
   margin: 0 !important;
@@ -39,4 +42,9 @@
 }
 .content{
   height: 400px;
+}
+.img-sizing{
+  width: 100%;
+  height: 50%;
+  object-fit: cover;
 }
