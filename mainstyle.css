@@ -1,25 +1,10 @@
-.navbar{
-  background-color: #B3EAD7;
-  height: 5rem;
-}
-.bgColor{
-  background-color: #B3EAD7;
-}
-
-.navbar > p{
-  margin: 0 !important;
-}
-.grid-pos{
-  display: flex;
-  justify-content: center;
-  margin-top: 7rem;
-}
-#movedown{
-  margin-top: 7rem !important; 
-}
 .content{
-  text-align: center;
-  background-color: #F6F7F8;
+  text-align: center;/* From https://css.glass */
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 50px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(9.4px);
+  -webkit-backdrop-filter: blur(9.4px);
   overflow: hidden;
   transition: transform .5s ease;
 }
@@ -29,22 +14,24 @@
 .btnpositioning{
   margin: 2rem 0;
 }
-.sW{
-  color: black !important;
-}
-.sW:hover{
-  color: white !important;
-}
 .picturePos{
   object-fit: cover;
   object-position:50% 50%;
   height: 100%;
 }
 .content{
-  height: 400px;
+  height: 450px;
 }
 .img-sizing{
   width: 100%;
   height: 50%;
   object-fit: cover;
+}
+.heading{
+  padding: 5rem 0 1rem 0;
+  background-image: url(pictures/main-picture.jpg);
+  object-fit: cover;
+}
+.margin-content{
+  margin: 9rem 5rem;
 }
