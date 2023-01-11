@@ -10,6 +10,10 @@
 .btnpositioning{
   margin: 2rem 0;
 }
+.btnpositioning:hover{
+  background-color: lightblue !important;
+  border: 0;
+}
 .picturePos{
   object-fit: cover;
   object-position:50% 50%;
@@ -30,4 +34,7 @@
 }
 .margin-content{
   margin: 9rem 7rem;
+}
+a:hover{
+  color: lightblue !important;
 }
