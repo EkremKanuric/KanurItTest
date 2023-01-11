@@ -6,10 +6,6 @@
   backdrop-filter: blur(9.4px);
   -webkit-backdrop-filter: blur(9.4px);
   overflow: hidden;
-  transition: transform .5s ease;
-}
-.content:hover{
-  transform: scale(1.02);
 }
 .btnpositioning{
   margin: 2rem 0;
@@ -28,10 +24,10 @@
   object-fit: cover;
 }
 .heading{
-  padding: 5rem 0 1rem 0;
+  padding: 10rem 0 4rem 0;
   background-image: url(pictures/main-picture.jpg);
   object-fit: cover;
 }
 .margin-content{
-  margin: 9rem 5rem;
+  margin: 9rem 7rem;
 }
