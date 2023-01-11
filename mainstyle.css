@@ -6,6 +6,7 @@
   backdrop-filter: blur(9.4px);
   -webkit-backdrop-filter: blur(9.4px);
   overflow: hidden;
+  height: 450px;
 }
 .btnpositioning{
   margin: 2rem 0;
@@ -18,9 +19,6 @@
   object-fit: cover;
   object-position:50% 50%;
   height: 100%;
-}
-.content{
-  height: 450px;
 }
 .img-sizing{
   width: 100%;
@@ -37,4 +35,10 @@
 }
 a:hover{
   color: lightblue !important;
+}
+.text{
+  margin-top: 10rem;
+  width: 90%;
+  height: 450px;
+  line-height: 2;
 }
