@@ -26,12 +26,12 @@
   object-fit: cover;
 }
 .heading{
-  padding: 10rem 0 4rem 0;
+  padding: 2rem 0 9rem 0;
   background-image: url(pictures/main-picture.jpg);
   object-fit: cover;
 }
 .margin-content{
-  margin: 9rem 7rem;
+  margin: 12rem 7rem;
 }
 a:hover{
   color: lightblue !important;
