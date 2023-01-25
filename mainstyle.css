@@ -8,9 +8,6 @@
   overflow: hidden;
   height: 450px;
 }
-.btnpositioning{
-  margin: 2rem 0;
-}
 .btnpositioning:hover{
   background-color: lightblue !important;
   border: 0;

@@ -10,29 +10,9 @@
     <title>KanurIT - Startseite</title>
   </head>
   <body>
+    
     <section class="heading">
-      <nav class="navbar navbar-expand-lg navbar-inverse top-fixed" role="navigation">
-        <div class="container-fluid">
-            <a class="navbar-brand text-white" href="#">
-                KanurIT
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div id="navbarNavDropdown" class="navbar-collapse collapse">
-                <div class="mr-auto">
-                    
-                </div>
-                
-                  <ul class="navbar-nav">
-                    <li class="nav-item "><a href="#home" class="nav-link text-white">Über Uns</a></li>
-                    <li class="nav-item"><a href="#services" class="nav-link text-white">Dienstleistungen</a></li>
-                    <li class="nav-item"><a href="#about" class="nav-link text-white">Preise</a></li>
-                    <li class="nav-item"><a href="#work" class="nav-link text-white">Kontakt</a></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
+    <?php @include 'navbar.php'?> 
     <div class=" pt-5 shadow-lg content margin-content">
       <h1 style="margin-bottom: 4rem;">Software benötigt? Wir helfen weiter!</h1>
       <h4 class="mb-5" id="margin-text">Wir gehen auf Ihre Wünsche ein und erledigen Ihren Auftrag in Rekordzeit</h4>
@@ -68,7 +48,7 @@
     <div class="text text-white">
       <div class="row align-items-top text-center">
         <div class="col bg-dark shadow-lg">
-          <h1 class="mt-5 display-4">Interessiert ?</h1>
+          <h1 class="mt-5 display-4">Unsere Dienstleistungen</h1>
           <div class="mt-5 ml-5">
             <p>Der ganze Prozess läuft komplett individuell auf Sie abgestimmt ab</p>
           </div>
