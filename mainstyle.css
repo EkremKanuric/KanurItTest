@@ -39,3 +39,7 @@ a:hover{
   height: 450px;
   line-height: 2;
 }
+
+#footer{
+  height: 5rem;
+}
