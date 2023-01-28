@@ -70,6 +70,8 @@ a:hover{
 .btn-changes{
   width: 50%;
   height: 4rem;
+  border: 0 !important;
+  border-radius: 0 !important;
 }
 #footer{
   height: 5rem;
