@@ -19,6 +19,7 @@ h1{
   backdrop-filter: blur(9.4px);
   -webkit-backdrop-filter: blur(9.4px);
   overflow: hidden;
+  height: 450px;
 }
 
 .btnpositioning:hover{
