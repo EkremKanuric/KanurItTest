@@ -44,7 +44,7 @@ a:hover{
 }
 .text-ml{
   margin: 10rem 0 10rem 0;
-  height: 600px;
+  height: auto;
   width: 100%;
   color: white;
 }
